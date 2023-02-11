@@ -1,0 +1,7 @@
+[servers]
+prod_1 ansible_host=172.31.51.84
+
+[all:vars]
+ansible_user=ubuntu
+ansible_private_key_file=/root/linuxkey.pem
+ansible_interpreter=/usr/bin/python3
